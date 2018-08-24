@@ -4,6 +4,10 @@ html,body {
   padding:0;
   height: 100%;
   width: 100%;
+  overflow: hidden;
+  background: url("https://nyc3.digitaloceanspaces.com/mountainvalleymotors/mvm%20logo.png") no-repeat center center;
+  background-size: 100% auto;
+  color: white;
 }
 
 .main {
@@ -11,12 +15,14 @@ text-align: center;
 }
 
 .main_header {
-color: black;
+  position: absolute;
+  left: 42vw;
+  top: 58vw;
 }
 
 .service_description {
+font-size: 40px;
 text-align: center;
-margin-top: 200px;
 }
 
 .footer_main {
